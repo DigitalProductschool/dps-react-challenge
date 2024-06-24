@@ -36,7 +36,7 @@ Refer to the attached mockup image to guide your UI development 👇
     -   **Optional:** Implement a 1-second debounce on the Name Filter input. This means the application should delay the filter action until 1 second has passed without any further input from the user. This optimization helps reduce the number of processing calls, enhancing performance.
 -   **Submission:** After completing the challenge, email us the URL of your GitHub repository.
 -   **Further information:**
-    -   If there is anything unclear regarding requirements, feel free to contact us by email
+    -   If there is anything unclear regarding requirements, contact us by replying to this email
     -   Use small commits, we want to see your progress towards the solution
     -   Code clean and follow the best practices
 
