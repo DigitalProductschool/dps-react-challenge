@@ -34,7 +34,7 @@ Refer to the attached mockup image to guide your UI development 👇
     -   **City Filter:** A dropdown that lists all cities present in the data. Users can select a city to filter the list accordingly.
     -   **Highlight Feature:** A checkbox that when checked, highlights the oldest users within each selected city (use data field `city`)
     -   **Optional:** Implement a 1-second debounce on the Name Filter input. This means the application should delay the filter action until 1 second has passed without any further input from the user. This optimization helps reduce the number of processing calls, enhancing performance.
--   **Submission:** After completing the challenge, email us the URL of your GitHub
+-   **Submission:** After completing the challenge, email us the URL of your GitHub repository.
 -   **Further information:**
     -   If there is anything unclear regarding requirements, feel free to contact us by email
     -   Use small commits, we want to see your progress towards the solution
