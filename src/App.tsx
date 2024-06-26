@@ -1,5 +1,6 @@
 import dpsLogo from './assets/DPS.svg';
 import './App.css';
+import UserList from './components/user-list/UserList';
 
 // https://dummyjson.com/users
 
@@ -12,7 +13,7 @@ function App() {
 				</a>
 			</div>
 			<div className="home-card">
-				<p>Your solution goes here 😊</p>
+				<UserList />
 			</div>
 		</>
 	);

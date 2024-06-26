@@ -1,0 +1,45 @@
+.user-list-container {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	background-color: #f4f4f4;
+	box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
+.user-filters {
+	display: flex;
+	gap: 30px;
+}
+
+.search-bar-container,
+.select-city-input {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	gap: 5px;
+}
+
+.city-filter {
+	height: 42px;
+}
+
+.check-older-cities {
+	display: flex;
+	align-items: end;
+	gap: 5px;
+}
+
+.user-table {
+	width: 100%;
+	background-color: #e2e1e1;
+	border-radius: 8px;
+	padding: 15px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pagination {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 10px;
+}
