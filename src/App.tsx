@@ -1,8 +1,6 @@
 import dpsLogo from './assets/DPS.svg';
 import './App.css';
 
-// https://dummyjson.com/users
-
 function App() {
 	return (
 		<>
