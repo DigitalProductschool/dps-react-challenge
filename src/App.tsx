@@ -1,4 +1,6 @@
 /* eslint-disable linebreak-style */
+/* eslint-disable @typescript-eslint/no-explicit-any */
+/* eslint-disable linebreak-style */
 import React, { useEffect, useState } from 'react';
 import './App.css';
 
@@ -108,7 +110,7 @@ const App: React.FC = () => {
 						</div>
 
 						<div className='highlight'>
-							<h2>Highlight oldest per city</h2>
+							<h2>Highlight oldest <br /> per city</h2>
 							<input
 								type="checkbox"
 								className='checkbox'
@@ -121,18 +123,18 @@ const App: React.FC = () => {
 						<table>
 							<thead>
 								<tr>
-									<th>Name</th>
-									<th>City</th>
-									<th>Birthday</th>
+									<th className='tableHead'>Name</th>
+									<th className='tableHead'>City</th>
+									<th className='tableHead'>Birthday</th>
 								</tr>
 							</thead>
 							<tbody>
 								{
 									filteredPeople.map((item) => (
-										<tr key={item.id} className={item.isOldest ? 'highlight' : ''}>
-											<td>{item.name}</td>
+										<tr key={item.id} className={item.isOldest ? 'blueHighlight' : ''}>
+											<td className='tableData1'>{item.name}</td>
 											<td>{item.cityName}</td>
-											<td>{item.dateOfBirth}</td>
+											<td className='tableData2'>{item.dateOfBirth}</td>
 										</tr>
 									))
 								}

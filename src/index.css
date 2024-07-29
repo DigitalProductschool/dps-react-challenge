@@ -9,82 +9,248 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.wrapper {
-	border: solid;
-	padding: 10px;
-	border-radius: 50px;
-	border-color: black;
+@media only screen and (max-width: 600px) {
+
+	.wrapper {
+		border: 2px solid;
+		padding: 8px;
+		border-radius: 20px;
+		border-color: black;
+		overflow-x: hidden;
+	}
+	
+	.nameFlex {
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		padding: 0 30px;
+		gap: 10px;
+		margin-bottom: -1rem;
+	}
+	
+	.nameFlex div {
+		margin-left: 40px;
+		margin-top: 30px;
+	}
+	
+	.inputFlex {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		padding: 20px;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	.inputFlex div {
+		margin-left: 40px;
+	}
+	
+	.nameInput {
+		border: solid;
+		border-radius: 20px;
+		border-color: black;
+		width: 230px;
+		height: 60px;
+		padding-left: 15px;
+		font-size: 25px;
+		margin-left: -36px;
+	}
+	
+	.cityInput {
+		border: solid;
+		border-radius: 20px;
+		border-color: black;
+		width: 280px;
+		height: 60px;
+		padding: 10px;
+		font-size: 25px;
+		color: grey;
+		opacity: 1;
+		margin-left: -33px;
+	}
+	
+	::placeholder {
+		position: relative;
+		font-size: x-large;
+		padding: 10px;
+	}
+	
+	.highlight {
+		display: flex;
+		align-items: center;
+		gap: 15px;
+	}
+	
+	.checkbox {
+		width: 35px;
+		height: 35px;
+	}
+	
+	.table {
+		width: 93%;
+		margin: 1rem auto;
+		padding: 2rem 0;
+		border: 2px solid black;
+		border-radius: 25px;
+	}
+	
+	table {
+		width: 100%;
+		border-collapse: collapse;
+	}
+	
+	th {
+		padding: 10px;
+	}
+	
+	th, td {
+		/* padding: 15px; */
+		/* border: 1px solid black; */
+		border-bottom: 1px solid black;
+	}
+	
+	.tableData1 {
+		border-top-left-radius: 25px;
+		border-bottom-left-radius: 25px;
+	}
+	
+	.tableData2 {
+		border-top-right-radius: 25px;
+		border-bottom-right-radius: 25px;
+	}
+	
+	tbody td {
+		padding: 5px;
+	}
+	
+	.tableHead {
+		border-bottom: 2px solid black;
+		
+	}
+	
+	.blueHighlight {
+		background-color: #82d4f5;
+		margin: 1px 0;
+	}
 }
 
-.nameFlex {
-	display: flex;
-	flex-direction: row;
-}
+@media only screen and (min-width: 992px) {
 
-.nameFlex div {
-	margin-left: 40px;
-	margin-top: 30px;
-}
-
-.nameFlex .city {
-	padding-left: 170px;
-}
-
-.inputFlex {
-	display: flex;
-	flex-direction: row;
-}
-
-.inputFlex div {
-	margin-left: 40px;
-}
-
-.nameInput {
-	border: solid;
-	border-radius: 20px;
-	border-color: black;
-	width: 230px;
-	height: 60px;
-	padding-left: 15px;
-	font-size: 25px;
-}
-
-.cityInput {
-	border: solid;
-	border-radius: 20px;
-	border-color: black;
-	width: 230px;
-	height: 60px;
-	padding: 0 10px;
-	font-size: 25px;
-}
-
-::placeholder {
-	position: relative;
-	font-size: x-large;
-	padding: 10px;
-}
-
-.highlight {
-	display: flex;
-	align-items: center;
-	gap: 15px;
-}
-
-.checkbox {
-	width: 35px;
-	height: 35px;
-}
-
-.table {
-	width: 100%;
-	padding: 2rem 0;
-}
-
-table {
-	width: 100%;
-}
-
-th, td {
-	padding: 15px;
+	.wrapper {
+		border: 2px solid;
+		padding: 10px;
+		border-radius: 50px;
+		border-color: black;
+	}
+	
+	.nameFlex {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		gap: 190px;
+		margin-bottom: -1rem;
+	}
+	
+	.nameFlex div {
+		margin-left: 40px;
+		margin-top: 30px;
+	}
+	
+	.inputFlex {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+	
+	.inputFlex div {
+		margin-left: 40px;
+	}
+	
+	.nameInput {
+		border: solid;
+		border-radius: 20px;
+		border-color: black;
+		width: 230px;
+		height: 60px;
+		padding-left: 15px;
+		font-size: 25px;
+	}
+	
+	.cityInput {
+		border: solid;
+		border-radius: 20px;
+		border-color: black;
+		width: 280px;
+		height: 60px;
+		padding: 10px;
+		font-size: 25px;
+		color: grey;
+		opacity: 1;
+	}
+	
+	::placeholder {
+		position: relative;
+		font-size: x-large;
+		padding: 10px;
+	}
+	
+	.highlight {
+		display: flex;
+		align-items: center;
+		gap: 15px;
+	}
+	
+	.checkbox {
+		width: 35px;
+		height: 35px;
+	}
+	
+	.table {
+		width: 93%;
+		margin: 1rem auto;
+		padding: 2rem 0;
+		border: 2px solid black;
+		border-radius: 25px;
+	}
+	
+	table {
+		width: 100%;
+		border-collapse: collapse;
+	}
+	
+	th {
+		padding: 10px;
+	}
+	
+	th, td {
+		/* padding: 15px; */
+		/* border: 1px solid black; */
+		border-bottom: 1px solid black;
+	}
+	
+	.tableData1 {
+		border-top-left-radius: 25px;
+		border-bottom-left-radius: 25px;
+	}
+	
+	.tableData2 {
+		border-top-right-radius: 25px;
+		border-bottom-right-radius: 25px;
+	}
+	
+	tbody td {
+		padding: 15px;
+	}
+	
+	.tableHead {
+		border-bottom: 2px solid black;
+		
+	}
+	
+	.blueHighlight {
+		background-color: #82d4f5;
+		margin: 1px 0;
+	}
+	
 }
